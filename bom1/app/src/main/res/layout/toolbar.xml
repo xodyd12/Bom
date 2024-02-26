@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:background="#98D4EC"
+    app:menu="@menu/menu_toolbar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="음악의 기초"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/the_kkakdugi"/>
+
+</androidx.appcompat.widget.Toolbar>
